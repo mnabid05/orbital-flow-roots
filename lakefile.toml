@@ -1,0 +1,11 @@
+name = "orbital_flow_roots"
+version = "0.1.0"
+defaultTargets = ["Conjectures"]
+
+[[lean_lib]]
+name = "Conjectures"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.19.0"
